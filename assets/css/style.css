@@ -54,7 +54,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 100;
 }
+
+.newsLikeBtnActive {
+  color: yellow;
+}
+
+.newsDeleteBtn{
+  position: absolute;
+  top: 55px;
+  right: 10px;
+  height: 35px;
+  width: 35px;
+  background: none;
+  border: 1px solid grey;
+  border-radius: 50%;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
 
 .newsCat {
   display: inline-block;
